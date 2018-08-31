@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon version="0.2">
+	<title xml:lang="ko"> 게시판 확장변수 유효기간 애드온 </title>
+	<description xml:lang="ko">
+		게시판에 설정한 확장변수의 날짜를 이용해서 이벤트성 게시물을 만들 수 있다. 
+		* 대상에서 실행될 게시판을 선택해주세요.
+	</description>    
+	<version>1.2</version>
+    <date>2018-08-13</date>
+	<author email_address="notsilly@naver.com" link="notsilly@naver.com">
+		<name xml:lang="ko">coconut38</name>
+		<description xml:lang="ko">삭제될 날짜가 입력되면 삭제</description>
+	</author>
+	<extra_vars>
+		 
+		<var name="extra_val_name">
+			<title xml:lang="ko">확장변수 이름</title>
+			<description xml:lang="ko">* 확장변수명을 입력해 주세요.
+			 </description>
+		</var>
+		 
+	</extra_vars>
+</addon>
