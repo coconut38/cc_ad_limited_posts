@@ -1,7 +1,9 @@
 <?php
 
 	if(!defined("__XE__")) exit();
-    if($called_position!='before_module_proc') return;
+	if($called_position!='before_module_proc') return;
+	
+	//게시판만.
 	if(($this->module == 'board') && $act) return;
 	  
 	$extra_val_name = $addon_info->extra_val_name;
